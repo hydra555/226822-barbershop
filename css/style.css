@@ -1,20 +1,21 @@
-body {
-  font-family: "PT Sans Narrow", "Arial", sans-serif; 
-  font-size: 10px;
-  line-height: 20px;
-  font-weight: 700;
-  font-color: #7f7f7f
-  
+.body {
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "'PT Sans", sans-serif;
 }
-
-h1 {
+.h1 {
   font-size: 30px;
-  line-height: 40px;
+  line-height: 42px;
+}
+.h2 {
+  font-size: 24px;
+  line-height: 30px;
 }
 
-h2 {
-  font-size: 20px;
-  line-height: 30px;
+li {
+    display: inline;
 }
 
 .clearfix::after {
@@ -32,7 +33,7 @@ h2 {
  /* --------------скрыл горизонтальные списки----------------- */
  
 .hidden {
-    display: none
+    display: non
 }
 
  /* ------------Фон для сетки----------------- */
@@ -81,6 +82,24 @@ h2 {
     background-color:#666699
 }
 
+/*---------------вторая страница цвет ячеек------------------ */
+
+.left-column-gallery {
+    background-color:#8888cc;
+}
+
+.content-right-column {
+    background-color:#ffcc99;
+}
+
+.gallery-main {
+    background-color:#339933;
+}
+
+.gallery-nav {
+    background-color:#cc5521;
+}
+
 /*---------------текст внутри ячеек с товаром------------------ */
 
 span {
@@ -95,6 +114,7 @@ span {
 
 .main-header {
   margin-bottom: 55px;
+  
 }
  
  .container {
@@ -112,14 +132,15 @@ span {
 
 .main-navigation {
     float:left;
-    min-height: 70px;
     width:620px;
+    min-height: 70px;
+    
 }
 
 .user-block {
     float:right;
-    min-height: 70px;
     width:140px;
+    min-height: 70px;
 }
 
 /* ----------------------main---------------------------- */
@@ -130,7 +151,7 @@ span {
 }
 
 .page-title {
-    width:300px;
+    width:680px;
     min-height: 80px;
     height:66px;
     margin-bottom:55px;
@@ -139,7 +160,7 @@ span {
 .sidebar {
     float:left;
     width: 220px;
-    height: 580px;
+    
 }
 
 .catalog-gallery {
@@ -156,8 +177,7 @@ span {
     margin-bottom: 20px;
 }
 
-.catalog-item:nth-child(3),
-.catalog-item:nth-child(6){
+.catalog-item:nth-child(3n){
   margin-right:0;
 }
 
@@ -166,14 +186,13 @@ span {
     margin-top:27px;
     margin-right: auto;
     margin-left: auto;
-    width: 193px;
     height: 43px;
 }
     
 /* ----------------------footer---------------------------- */
 
 .main-footer {
-  margin-top: 65px;
+  margin-top: 49px;
   padding-top: 60px;
   padding-bottom: 40px;
 }
@@ -196,3 +215,72 @@ span {
   width: 180px;
   min-height: 90px;
 }
+
+/* -----------------main second page------------------ */
+
+.left-column-gallery {
+    float: left;
+    width:460px;
+    min-height: 670px;
+}
+
+.content-right-column {
+    float:right;
+    margin-top:25px;
+    width: 380px;
+    min-height: 510px;
+}
+
+.gallery-main {
+    width:auto;
+    height: 500px;
+}
+
+.gallery-nav {
+    float:left;
+    width:140px;
+    height:150px;
+    margin-top:20px;
+    margin-right:20px;
+}
+
+.gallery-nav:last-child {
+    margin-right:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
