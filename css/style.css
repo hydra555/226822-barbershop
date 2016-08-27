@@ -30,11 +30,7 @@ li {
     background-size: 10px;
 }
 
- /* --------------скрыл горизонтальные списки----------------- */
- 
-.hidden {
-    display: non
-}
+
 
  /* ------------Фон для сетки----------------- */
  
@@ -114,8 +110,9 @@ span {
 
 .main-header {
   margin-bottom: 55px;
-  
+  min-height:70px;
 }
+
  
  .container {
     width: 940px;
@@ -126,21 +123,23 @@ span {
 .index-logo {
     float:left;
     width:140px;
-    min-height: 70px;
-    margin-right:10px;
+    
+    
 }
 
 .main-navigation {
     float:left;
     width:620px;
-    min-height: 70px;
+    
+    
     
 }
 
 .user-block {
     float:right;
     width:140px;
-    min-height: 70px;
+    
+    
 }
 
 /* ----------------------main---------------------------- */
@@ -247,8 +246,6 @@ span {
 .gallery-nav:last-child {
     margin-right:0px;
 }
-
-
 
 
 
